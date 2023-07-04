@@ -1,18 +1,21 @@
 import Carousel from "react-bootstrap/Carousel";
-import firstSlide from "../assets/images/firstslide.jpg";
+import reactbanner from "../assets/images/reactbanner.png";
+import djangobanner from "../assets/images/djangobanner.png";
+
+
 
 function Carousels() {
   return (
     <Carousel>
       <Carousel.Item>
-        <img className="d-block w-100" src={firstSlide} alt="First slide" />
+        <img className="d-block w-100" src={reactbanner} alt="First slide" />
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={firstSlide} alt="Second slide" />
+        <img className="d-block w-100" src={djangobanner} alt="Second slide" />
 
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -20,7 +23,7 @@ function Carousels() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={firstSlide} alt="Third slide" />
+        <img className="d-block w-100" src={reactbanner} alt="Third slide" />
 
         <Carousel.Caption>
           <h3>Third slide label</h3>
