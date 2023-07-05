@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.30ea52ad.css",
-    "main.js": "/static/js/main.038ca769.js",
+    "main.css": "/static/css/main.1c10140d.css",
+    "main.js": "/static/js/main.b521d5b8.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/reactbanner.png": "/static/media/reactbanner.dc3a897752bdf2d6f483.png",
-    "static/media/djangobanner.png": "/static/media/djangobanner.e4663f17b5ef931f92cb.png",
+    "static/media/software.svg": "/static/media/software.f6d4f7cdbd13856fa97a1ae8b24155f4.svg",
+    "static/media/django.svg": "/static/media/django.282449bf10ab169bfe271099c98c9c1e.svg",
+    "static/media/react.svg": "/static/media/react.b3a0e83c73ef7ed888d5ca40155430fa.svg",
     "index.html": "/index.html",
-    "main.30ea52ad.css.map": "/static/css/main.30ea52ad.css.map",
-    "main.038ca769.js.map": "/static/js/main.038ca769.js.map",
+    "main.1c10140d.css.map": "/static/css/main.1c10140d.css.map",
+    "main.b521d5b8.js.map": "/static/js/main.b521d5b8.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30ea52ad.css",
-    "static/js/main.038ca769.js"
+    "static/css/main.1c10140d.css",
+    "static/js/main.b521d5b8.js"
   ]
 }
