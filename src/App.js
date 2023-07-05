@@ -3,9 +3,9 @@ import React, { useState, useEffect } from "react";
 import Carousels from "./components/Carousels";
 import Header from "./components/Header";
 import ProjectCard from "./components/ProjectCard";
-import Home from "./pages/Home";
 import "./themes.css";
 import { Button } from "react-bootstrap";
+import AccordionCom from "./components/AccordionCom";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -26,7 +26,8 @@ function App() {
     <div className={`app ${theme}`}>
       <Header />
       <Carousels />
-      <Home />
+      <AccordionCom />
+
       <ProjectCard />
       <Button variant="light" onClick={() => handleThemeChange("light")}>
         Light
