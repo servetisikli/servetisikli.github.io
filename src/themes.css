@@ -1,0 +1,11 @@
+/* Light Tema */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Tema */
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
