@@ -11,7 +11,7 @@ const sliderStyles = {
   display: "flex",
   alignItems: "center",
   color: "orange",
-  fontSize: "36px",
+  fontSize: "34px",
 };
 
 const sliderInfos = {

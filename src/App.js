@@ -6,6 +6,7 @@ import ProjectCard from "./components/ProjectCard";
 import "./themes.css";
 import { Button } from "react-bootstrap";
 import AccordionCom from "./components/AccordionCom";
+import About from "./components/About";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -35,6 +36,8 @@ function App() {
       <Button variant="dark" onClick={() => handleThemeChange("dark")}>
         Dark
       </Button>
+
+      <About/>
     </div>
   );
 }
