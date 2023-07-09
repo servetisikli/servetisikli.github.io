@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 // import django from "../assets/images/django.svg";
 
 const sliderStyles = {
-  backgroundColor: "#001C30",
+  backgroundColor: "#rgb(156 163 175",
   height: "50vh",
   width: "100vw",
   justifyContent: "center",
