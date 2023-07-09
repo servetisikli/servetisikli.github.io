@@ -28,6 +28,8 @@ function App() {
       {/* <div className={`app ${theme}`}> */}
       <Header />
       <Carousels />
+      <About />
+
       <AccordionCom />
       <ProjectCard />
       {/* <Button variant="light" onClick={() => handleThemeChange("light")}>
@@ -36,7 +38,6 @@ function App() {
         <Button variant="dark" onClick={() => handleThemeChange("dark")}>
           Dark
         </Button> */}
-      {/* <About /> */}
       {/* </div> */}
     </main>
   );
