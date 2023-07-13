@@ -7,6 +7,8 @@ import "./themes.css";
 // import { Button } from "react-bootstrap";
 import AccordionCom from "./components/AccordionCom";
 import About from "./components/About";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Projects from "./components/Projects";
 
 function App() {
   // const [theme, setTheme] = useState("light");
@@ -26,12 +28,17 @@ function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       {/* <div className={`app ${theme}`}> */}
-      <Header />
-      <Carousels />
-      <About />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+        <Carousels />
+        <About />
+        <AccordionCom />
+        <ProjectCard />
+      </BrowserRouter>
 
-      <AccordionCom />
-      <ProjectCard />
       {/* <Button variant="light" onClick={() => handleThemeChange("light")}>
           Light
         </Button>
