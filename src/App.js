@@ -7,7 +7,7 @@ import "./themes.css";
 // import { Button } from "react-bootstrap";
 import AccordionCom from "./components/AccordionCom";
 import About from "./components/About";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Projects from "./components/Projects";
 
 function App() {
@@ -28,7 +28,8 @@ function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       {/* <div className={`app ${theme}`}> */}
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
+      <HashRouter>
         <Header />
         <Routes>
           <Route path="/projects" element={<Projects />} />
@@ -37,7 +38,8 @@ function App() {
         <About />
         <AccordionCom />
         <ProjectCard />
-      </BrowserRouter>
+      </HashRouter>
+      {/* </BrowserRouter> */}
 
       {/* <Button variant="light" onClick={() => handleThemeChange("light")}>
           Light
