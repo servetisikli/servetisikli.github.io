@@ -3,9 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <div>
-      <h1>projectss1</h1>
-      <h1>projectss2</h1>
-      <h1>projectss3</h1>
+      <h1>Projects...</h1>
       Projects Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
       quis ipsum voluptatum quae possimus debitis ullam fuga atque officia sequi
       quasi accusamus dolorem magni voluptates a magnam porro sapiente
