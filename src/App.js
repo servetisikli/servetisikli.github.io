@@ -2,7 +2,7 @@ import "./App.css";
 // import React, { useState, useEffect } from "react";
 import Carousels from "./components/Carousels";
 import Header from "./components/Header";
-import ProjectCard from "./components/ProjectCard";
+// import ProjectCard from "./components/ProjectCard";
 import "./themes.css";
 // import { Button } from "react-bootstrap";
 import AccordionCom from "./components/AccordionCom";
@@ -37,7 +37,7 @@ function App() {
         <Carousels />
         <About />
         <AccordionCom />
-        <ProjectCard />
+        {/* <ProjectCard /> */}
       </HashRouter>
       {/* </BrowserRouter> */}
 
