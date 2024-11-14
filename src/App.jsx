@@ -1,11 +1,10 @@
-import "./App.css";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
-    <>
-      <h1>Updating...</h1>
-      <p>Nov 2024</p>
-    </>
+    <div className="text-center">
+      <Home />
+    </div>
   );
 }
 
