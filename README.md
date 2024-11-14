@@ -1,4 +1,4 @@
-# Github Web Page
+# Github Page
 
 You can access the live demo of this project at the following URL:
 
